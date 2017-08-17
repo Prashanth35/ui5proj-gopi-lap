@@ -1,0 +1,13 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="datapassing.VIEW1" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title" >
+		<content>
+		<Label text="name"/>
+		<Input id="View1"/>
+		<Label text="number"/>
+		<Input id="View2"/>
+	
+	<Button text="press" press="onPress"/>
+		</content>
+	</Page>
+</core:View>
